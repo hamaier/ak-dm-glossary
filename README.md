@@ -1,5 +1,5 @@
 ---
-description: test of gitbiik-github integration
+description: test of gitbook-github integration
 ---
 
 # ak-metadata-guide
