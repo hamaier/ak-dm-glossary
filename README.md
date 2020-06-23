@@ -4,5 +4,5 @@ Alaska metadata creation guide
 
 Test README.md
 
-## GitBook [SUMMARY.md] file
+## GitBook <SUMMARY.md> file
 
