@@ -1,6 +1,5 @@
 # ak-dm-glossary
-
-Alaska metadata creation guide
+Alaska metadata creation guide [GitBook index](SUMMARY.md)
 
 Test README.md
 
