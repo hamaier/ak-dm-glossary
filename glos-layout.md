@@ -6,10 +6,6 @@ description: Sample layout
 
 General introductory text
 
-{% hint style="warning" %}
-Hint box
-{% endhint %}
-
 ## Term 1
 
 term1 definition
