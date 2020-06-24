@@ -1,5 +1,7 @@
 # Defs Heading
 
+Layout with terms as headings. Style used by current [ADIwg Glossary](https://adiwg.gitbooks.io/mdeditor/content/GLOSSARY.html)  allows linking directly to terms \(e.g. See [Data Custodian](g1-second-page.md#data-custodian)\)
+
 ## Accessibility
 
 the degree to which the resource is obtainable by an interested party. Direct access without constraint would be the most accessible \(e.g. resources that may be downloaded without requiring a login\), whereas resources that require third-party intervention would be less accessible.
