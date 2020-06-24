@@ -1,14 +1,19 @@
 # new one
 
+## new one
+
 * item 1
 * item 2
 
-## sub two
+### sub two
 
 Some more text, this time added from gitbook.
 
 {% hint style="info" %}
-## And an informational call-out
+### And an informational call-out
 {% endhint %}
 
-# Appended another H1
+## Appended another H1
+
+see [also ](new-cat.md)[Test here](page3.md#sub-two)
+
