@@ -6,13 +6,9 @@ description: Sample layout
 
 General introductory text
 
-## Term 1
+## Term 1a
 
 term1 definition
-
-{% hint style="danger" %}
-Notes go here
-{% endhint %}
 
 ## Term 2
 
