@@ -13,5 +13,5 @@ Just some basic content
 
 ## GitBook include syntax
 (should match text above)
-{% include "./new-page.md" %}
+{% include_relative "./new-page.md" %}
 
