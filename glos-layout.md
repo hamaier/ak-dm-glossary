@@ -10,6 +10,10 @@ General introductory text
 
 term1 definition
 
+{% hint style="danger" %}
+Notes go here
+{% endhint %}
+
 ## Term 2
 
 Term2 def
