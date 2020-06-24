@@ -10,8 +10,5 @@ Just some basic content
 {% include_relative new-page.md %}
 
 ### New H3 after include
-
-## GitBook include syntax
-(should match text above)
-{% include_relative "./new-page.md" %}
+---
 
