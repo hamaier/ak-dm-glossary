@@ -7,14 +7,23 @@
   * [page4 new sub-page](untitled-slug/page4-new-sub-page.md)
 * [here it is](new-cat.md)
 
-## group One
+## Defs on one page <a id="group-one"></a>
 
-* [G1 Page1](group-one/g1-page1.md)
-* [G1 second page](group-one/g1-second-page.md)
+* [Defs Bold](group-one/g1-page1.md)
+* [Defs Heading](group-one/g1-second-page.md)
 
 ## Group Two
 
-* [G2 page1](group-two/g2-page1.md)
-* [G2 P2](group-two/g2-p2.md)
-* [Untitled](group-two/untitled.md)
+* [Accessibility](group-two/g2-page1.md)
+* [ADIwg](group-two/g2-p2.md)
+* [Archive Folder](group-two/untitled.md)
+* [Data Catalog](group-two/data-catalog.md)
+* [Data Custodian](group-two/data-custodian.md)
+* [Data Trustee](group-two/data-trustee.md)
+* [Data Dictionary](group-two/data-dictionary.md)
+* [Data Integrity](group-two/data-integrity.md)
+* [Data Management](group-two/data-management.md)
+* [Data Management Plan](group-two/data-management-plan.md)
+* [Data Resources](group-two/data-resources.md)
+* [Data Steward](group-two/data-steward.md)
 
