@@ -14,8 +14,3 @@ description: Untitled page 4 description
 
 #### level 3 heading
 
-* [ ] Task 1
-* [ ] task 2
-
-
-
