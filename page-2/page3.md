@@ -15,9 +15,9 @@ Some more text, this time added from gitbook.
 
 ## Appended another H1
 
-see [also ](new-cat.md)[Test here](page3.md#sub-two)
+see [also ](../new-cat/)[Test here](page3.md#sub-two)
 
-{% page-ref page="page-2.md" %}
+{% page-ref page="./" %}
 
 
 

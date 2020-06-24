@@ -1,14 +1,15 @@
 # Table of contents
 
 * [ak-metadata-guide](README.md)
-* [page 2](page-2.md)
-* [Untitled](untitled-2.md)
-* [Untitled](untitled-1.md)
-* [Untitled](untitled.md)
-* [new one](page3.md)
+* [page 2](page-2/README.md)
+  * [new one](page-2/page3.md)
+* [Untitled](untitled-2/README.md)
+  * [Untitled](untitled-2/untitled-1.md)
 * [Untitled page 4](untitled-slug/README.md)
   * [page4 new sub-page](untitled-slug/page4-new-sub-page.md)
-* [here it is](new-cat.md)
+* [here it is](new-cat/README.md)
+  * [Untitled](new-cat/untitled.md)
+  * [Untitled](new-cat/untitled-1.md)
 
 ## Defs on one page <a id="group-one"></a>
 
