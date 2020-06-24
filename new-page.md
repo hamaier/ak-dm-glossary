@@ -4,11 +4,11 @@ description: new page with gitbook formatting
 
 # New page
 
-Line 1
+## Line 1
 
 Line 1
 
-Line3
+### Line3
 
 {% tabs %}
 {% tab title="First Tab" %}
