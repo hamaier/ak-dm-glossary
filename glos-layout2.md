@@ -4,7 +4,10 @@ layout: glossary
 # Try rendering glossary collection
 {% for term in site.glossary %}
   <details>
-  <summary><h1>{{ term.name }}</h1></summary>
+  <summary>
+
+  <h1>{{ term.name }}</h1>
+  </summary>
 
   Source: {{ term.page.name }}, path: {{ term.path }}
   [Page link]({{ term.url }})
