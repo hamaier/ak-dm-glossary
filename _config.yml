@@ -1,4 +1,6 @@
 # theme: jekyll-theme-minimal
+# theme: minimal-mistakes-jekyll
+#
 # title: Test site title <a href="https://hamaier.github.io/ak-dm-glossary">Home</a>
 collections:
   glossary:
@@ -7,3 +9,14 @@ collections:
     output: true
     permalink: "/:collection/:name/"
     ##      permalink: "/:collection/:path/"
+
+
+#
+# Configure minimal mistakes theme
+# https://github.com/mmistakes/minimal-mistakes
+# Also requires addition of Gemfile
+
+pligins:
+    - jekyll-include-cache
+
+remote_theme: "mmistakes/minimal-mistakes@4.19.3"
