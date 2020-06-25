@@ -1,2 +1,4 @@
 theme: jekyll-theme-minimal
 title: Test site title <a href="https://hamaier.github.io/ak-dm-glossary">Home</a>
+collections:
+  - glossary
