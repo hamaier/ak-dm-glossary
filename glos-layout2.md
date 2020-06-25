@@ -4,9 +4,9 @@ layout: glossary
 # Try rendering glossary collection
 {% for term in site.glossary %}
   <details>
-  <summary style="float:right">
+  <summary>
 
-  <h1>{{ term.name }}</h1>
+  <h1 style="float:right">{{ term.name }}</h1>
   </summary>
 
   Source: {{ term.page.name }}, path: {{ term.path }}
