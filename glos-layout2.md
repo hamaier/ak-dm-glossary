@@ -7,7 +7,9 @@
 
   ## raw content
   {{ term.content }}
-  ### end of term 
+  ### end of term
 {% endfor %}
 
 ## end render
+
+This page was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.
