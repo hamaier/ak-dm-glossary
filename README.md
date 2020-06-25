@@ -11,7 +11,7 @@ Test of glossary layout using GitHub.
   * [Alaska Region Interim Metadata Guide](https://ak-region-dst.gitbook.io/alaska-region-mdeditor-interim-user-guide/)
   * [Alaska Region Interim Data Management User Guide](https://ak-region-dst.gitbook.io/alaska-region-interim-data-management-user-guide/)
 
-## GitBook [SUMMARY.md](https://github.com/hamaier/ak-dm-glossary/tree/ecc31327389c29ba13d059fc15dc4e5f25505474/SUMMARY.md) file
+## GitBook [SUMMARY.md](SUMMARY.md) file
 
 # Notes:
 ## [Jekyll Documentation](https://jekyllrb.com/docs/)
