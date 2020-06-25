@@ -3,3 +3,4 @@ title: Test site title <a href="https://hamaier.github.io/ak-dm-glossary">Home</
 collections:
   glossary:
       output: true
+      permalink: /:collection/:path/
