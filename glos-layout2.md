@@ -1,7 +1,8 @@
 # Try rendering glossary collection
 {% for term in site.glossary %}
   # {{ term.name }}
-  Source: {{ page.neme }}, Page date: {{ page.date }}
+  Source: {{ term.page.name }}, path: {{ term.path }}
+  [Page link]({{ term.url }})
   Content:
   {{ term.content }}
   ---
