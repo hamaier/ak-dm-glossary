@@ -6,3 +6,10 @@ collections:
       permalink: "/:collection/:path/"
 
 markdown: kramdown
+
+defaults:
+    - scope:
+      path: ""
+      type: glossary
+    values:
+      layout: single
