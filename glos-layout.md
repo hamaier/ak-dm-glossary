@@ -14,3 +14,8 @@ term1 definition
 
 Term2 def
 
+# Try rendering collections
+{% for term in site.glosssary %}
+  <h2>{{ term.name }} - {{ term.position }}</h2>
+  <p>{{ term.content | markdownify }}</p>
+{% endfor %}
