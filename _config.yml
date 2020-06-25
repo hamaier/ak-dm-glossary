@@ -11,5 +11,3 @@ defaults:
     - scope:
       path: ""
       type: glossary
-    values:
-      layout: single
