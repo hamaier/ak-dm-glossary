@@ -2,9 +2,12 @@
 
 # Try rendering glossary collection
 {% for term in site.glossary %}
-  <h1>Get term name<h1>
-  <h2>{{ term.name }}</h2>
+  # {{ term.name }}
   <p>{{ term.content | markdownify }}</p>
+
+  ## raw content
+  {{ term.content }}
+  ### end of term 
 {% endfor %}
 
 ## end render
