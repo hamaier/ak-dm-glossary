@@ -1,3 +1,6 @@
+---
+layout: glossary
+---
 # Try rendering glossary collection
 {% for term in site.glossary %}
   <details>
