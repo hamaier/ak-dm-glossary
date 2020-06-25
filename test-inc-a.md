@@ -1,5 +1,5 @@
-
-# Test of include below:
+# File test-inc-a
+## Test of include below:
 ---
 {% include_relative inc-a.md %}
 ---
