@@ -16,7 +16,7 @@ collections:
 # https://github.com/mmistakes/minimal-mistakes
 # Also requires addition of Gemfile
 
-pligins:
+plugins:
     - jekyll-include-cache
 
 remote_theme: "mmistakes/minimal-mistakes@4.19.3"
