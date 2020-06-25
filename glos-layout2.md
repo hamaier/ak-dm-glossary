@@ -6,7 +6,7 @@ layout: glossary
   <details>
   <summary>
 
-  <h1 style="float:right">{{ term.name }}</h1>
+  <h1>{{ term.name }}</h1>
   </summary>
 
   Source: {{ term.page.name }}, path: {{ term.path }}
