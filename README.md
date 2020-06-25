@@ -1,10 +1,8 @@
----
-description: test of gitbook-github integration
----
+# ak-dm-glossary
 
-# ak-metadata-guide
+Alaska metadata creation guide [GitBook index](https://github.com/hamaier/ak-dm-glossary/tree/ecc31327389c29ba13d059fc15dc4e5f25505474/SUMMARY.md)
 
-## Alaska metadata creation guide
+Test README.md
 
-Link to book: [https://hamaier.gitbook.io/ham-testspace/](https://hamaier.gitbook.io/ham-testspace/)
+## GitBook [SUMMARY.md](https://github.com/hamaier/ak-dm-glossary/tree/ecc31327389c29ba13d059fc15dc4e5f25505474/SUMMARY.md) file
 
