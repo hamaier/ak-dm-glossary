@@ -7,7 +7,7 @@ description: Page created in gitbook.
 Just some basic content
 
 ## New H2
-{% include_relative new-page.md %}
+{% include_relative inc-a.md %}
 
 ### New H3 after include
 ---
