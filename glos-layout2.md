@@ -4,7 +4,7 @@ layout: glossary
 # Try rendering glossary collection
 {% for term in site.glossary %}
   <details>
-  <summary>
+  <summary style="float:right">
 
   <h1>{{ term.name }}</h1>
   </summary>
