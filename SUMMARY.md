@@ -5,4 +5,4 @@
 * [New page](new-page.md)
 * [Glos Layout](glos-layout.md)
 * [test-inc-a](test-inc-a.md)
-
+* [Render Glossary](glos-layout2.md)
