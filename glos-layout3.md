@@ -1,6 +1,3 @@
----
-layout: glossary
----
 # glos-layout2.md using glossary layout in front matter
 # Try rendering glossary collection
 {% for term in site.glossary %}
