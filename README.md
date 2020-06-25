@@ -3,6 +3,9 @@
 Test of glossary layout using GitHub.
 [ak glossary](https://hamaier.github.io/ak-dm-glossary) gh-pages link
 ([GitHub repo](https://github.com/hamaier/ak-dm-glossary))
+
+## [Render Glossary](glos-layout2.md) from collection
+
 ## GitBook test glossary
   * [edit view](https://app.gitbook.com/@hamaier/s/ham-testspace)
   * [published view](https://hamaier.gitbook.io/ham-testspace)
