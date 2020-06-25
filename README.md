@@ -6,5 +6,5 @@ description: test of gitbook-github integration
 
 ## Alaska metadata creation guide
 
-Link to book: [https://hamaier.gitbook.io/ham-testspace/](https://hamaier.gitbook.io/ham-testspace/)
+xxx Link to book: [https://hamaier.gitbook.io/ham-testspace/](https://hamaier.gitbook.io/ham-testspace/)
 
