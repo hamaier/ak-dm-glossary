@@ -4,14 +4,16 @@
 # title: Test site title <a href="https://hamaier.github.io/ak-dm-glossary">Home</a>
 collections:
   glossary:
-    defaults:
-      layout: post
     output: true
-    permalink: "/:collection/:name/"
-    ##      permalink: "/:collection/:path/"
+    #permalink: "/:collection/:name/"
+    permalink: "/:collection/:path/"
+
+    defaults:
+      layout: single
 
 # from: https://github.community/t/collapsible-markdown-inside-details-summary-summary-details-fails-to-render/10489
-markdown: CommonMarkGhPages
+#markdown: CommonMarkGhPages
+
 #
 # Configure minimal mistakes theme
 # https://github.com/mmistakes/minimal-mistakes
