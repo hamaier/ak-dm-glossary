@@ -6,6 +6,7 @@
   [Page link]({{ term.url }})
   ## variables:
   - term.path: {{ term.path }}
+  - term.relative_path: {{ term.path }}
   - term.url: {{ term.url }}
   - term.name: {{ term.name }}
   - site.url: {{ site.url }}
