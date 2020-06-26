@@ -11,6 +11,10 @@
   - site.url: {{ site.url }}
   - term.page.name: {{ term.page.name }}
   - term.page.path: {{ term.page.path }}
+  - site.github.url: {{ site.github.url }}
+  - site.github.baseurl: {{ site.github.baseurl }}
+  - site.github.owner_name: {{ site.github.owner_name }}
+  - site.github.owner_url: {{ site.github.owner_url }}
 
   Content:
   {{ term.content }}
