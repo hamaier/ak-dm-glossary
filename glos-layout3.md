@@ -1,9 +1,14 @@
-# glos-layout2.md using glossary layout in front matter
+# glos-layout3.md using glossary layout in front matter
 # Try rendering glossary collection
 {% for term in site.glossary %}
   # {{ term.name }}
   Source: {{ term.page.name }}, path: {{ term.path }}
   [Page link]({{ term.url }})
+  ## variables:
+  - term.path: {{ term.path }}
+  - term.url: {{ term.url }}
+  - term.name: {{ term.name }}
+
   Content:
   {{ term.content }}
   ---
