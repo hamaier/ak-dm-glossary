@@ -2,7 +2,7 @@
 # Try rendering glossary collection
 {% for term in site.glossary %}
   # {{ term.name }}
-  Source: {{ term.page.name }}, path: {{ term.path }}
+  Source: {{ term.page.name }}, path: {{site.github.baseurl}}{{ term.path }}
   [Page link]({{ term.url }})
   ## variables:
   - term.path: {{ term.path }}
