@@ -1,4 +1,4 @@
-# theme: jekyll-theme-minimal
+theme: jekyll-theme-minimal
 # theme: minimal-mistakes-jekyll
 #
 # title: Test site title <a href="https://hamaier.github.io/ak-dm-glossary">Home</a>
@@ -9,18 +9,21 @@ collections:
     #permalink: "/:collection/:name/"
     #permalink: "./glossary/"
 
-    defaults:
-      layout: single
+#    defaults:
+#      layout: single
 
 # from: https://github.community/t/collapsible-markdown-inside-details-summary-summary-details-fails-to-render/10489
 #markdown: CommonMarkGhPages
 
-#
+# --------------------------------------------
 # Configure minimal mistakes theme
 # https://github.com/mmistakes/minimal-mistakes
 # Also requires addition of Gemfile
 
-plugins:
-    - jekyll-include-cache
+#plugins:
+#    - jekyll-include-cache
+#
+#remote_theme: "mmistakes/minimal-mistakes@4.19.3"
 
-remote_theme: "mmistakes/minimal-mistakes@4.19.3"
+#
+## # --------------------------------------------
