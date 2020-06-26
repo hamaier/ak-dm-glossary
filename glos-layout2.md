@@ -1,5 +1,5 @@
 ---
-layout: glossary
+layout: draft
 ---
 # Try rendering glossary collection
 {% for term in site.glossary %}
