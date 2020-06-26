@@ -5,8 +5,8 @@
 collections:
   glossary:
     output: true
+    permalink: "/:collection/:path/"
     #permalink: "/:collection/:name/"
-    permalink: "/:collection/:name/"
     #permalink: "./glossary/"
 
     defaults:
