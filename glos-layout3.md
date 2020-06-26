@@ -9,8 +9,8 @@
   - term.url: {{ term.url }}
   - term.name: {{ term.name }}
   - site.url: {{ site.url }}
-  - term.page.name: {{ term.page.name }}
-  - term.page.path: {{ term.page.path }}
+  - page.name: {{ page.name }}
+  - page.path: {{ page.path }}
   - site.github.url: {{ site.github.url }}
   - site.github.baseurl: {{ site.github.baseurl }}
   - site.github.owner_name: {{ site.github.owner_name }}
