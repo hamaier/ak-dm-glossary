@@ -8,6 +8,9 @@
   - term.path: {{ term.path }}
   - term.url: {{ term.url }}
   - term.name: {{ term.name }}
+  - site.url: {{ site.url }}
+  - term.page.name: {{ term.page.name }}
+  - term.page.path: {{ term.page.path }}
 
   Content:
   {{ term.content }}

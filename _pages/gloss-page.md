@@ -2,7 +2,7 @@
 layout: collection
 title: "Gloss page"
 collection: glossary
-permalink: /:collection/:name
+permalink: ./glossary
 author_profile: false
 ---
 
