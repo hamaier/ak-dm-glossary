@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# File: test-inc-c (doesnt work)
+# File: test-inc-c (doesn't work)
  - frontmatter = layout: default
  - include_relative "inc-a.md"
 ## Test of include below:

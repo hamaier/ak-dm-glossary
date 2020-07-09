@@ -2,4 +2,4 @@
 layout: gloss-lay.html
 title: Glossary
 ---
-# /glossary/index.html
+# Glossary home (./glossary/index.html)
