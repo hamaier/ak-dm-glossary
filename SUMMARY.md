@@ -7,4 +7,6 @@
 * [test-inc-a](test-inc-a.md)
 * [test-inc-b](test-inc-b.md)
 * [test-inc-c](test-inc-c.md)
-* [Render Glossary](glos-layout2.md)
+* [test-inc-d](test-inc-d.md)
+* [test-inc-e](test-inc-e.md)
+* [Render Glossary, ver. 2](glos-layout2.md)
