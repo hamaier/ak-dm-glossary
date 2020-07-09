@@ -1,7 +1,4 @@
----
-layout: default
----
-# New file added
+# New file added (no front)
 
 ## More below:
 
