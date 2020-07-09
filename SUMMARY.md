@@ -6,4 +6,5 @@
 * [Glos Layout](glos-layout.md)
 * [test-inc-a](test-inc-a.md)
 * [test-inc-b](test-inc-b.md)
+* [test-inc-c](test-inc-c.md)
 * [Render Glossary](glos-layout2.md)
