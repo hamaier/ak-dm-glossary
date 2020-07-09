@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# File: test-inc-f (works)
+# File: test-inc-f (doesn't work)
  - frontmatter = layout: default
  - include inc-a.md
 ## Test of include below:
