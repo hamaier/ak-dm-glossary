@@ -1,0 +1,14 @@
+---
+---
+
+@import "{{ site.theme }}";
+.main-content {
+  h1 {
+   color: #ff0000;
+ }
+}
+
+/*
+  https://aregsar.com/blog/2019/how-to-customize-your-github-pages-blog-style-in-five-minutes/
+*/
+h1 {color: #009900;}
