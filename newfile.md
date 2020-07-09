@@ -2,6 +2,6 @@
 
 ## More below:
 
-{% include inc-a.md %}
+{% include ./inc-a.md %}
 
 ## (inc-a added above)
