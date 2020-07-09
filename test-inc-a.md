@@ -1,4 +1,5 @@
 ---
+layout: default
 ---
 # File test-inc-a
 ## Test of include below:
