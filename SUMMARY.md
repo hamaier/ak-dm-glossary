@@ -1,6 +1,6 @@
 # Table of contents
 
-* [ak-dm-glossary](README.md)
+* [-ak-dm-glossary](README.md)
 * [new-gb-page](new-gb-page.md)
 * [New file](newfile.md)
 * [glos-layout](glos-layout.md)
