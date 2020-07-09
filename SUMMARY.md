@@ -3,7 +3,7 @@
 * [ak-dm-glossary](README.md)
 * [new-gb-page](new-gb-page.md)
 * [New page](new-page.md)
-* [Glos Layout](glos-layout.md)
+* [glos-layout](glos-layout.md)
 * [test-inc-a](test-inc-a.md)
 * [test-inc-b](test-inc-b.md)
 * [test-inc-c](test-inc-c.md)
