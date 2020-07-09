@@ -9,8 +9,8 @@ collections:
     #permalink: "/:collection/:name/"
     #permalink: "./glossary/"
 
-  defaults:
-    layout: gloss-lay
+#  defaults:
+#    layout: gloss-lay
 
 # from: https://github.community/t/collapsible-markdown-inside-details-summary-summary-details-fails-to-render/10489
 #markdown: CommonMarkGhPages
