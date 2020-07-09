@@ -2,7 +2,7 @@
 
 * [ak-dm-glossary](README.md)
 * [new-gb-page](new-gb-page.md)
-* [New file](new-file.md)
+* [New file](newfile.md)
 * [glos-layout](glos-layout.md)
 * [test-inc-a](test-inc-a.md)
 * [test-inc-b](test-inc-b.md)
