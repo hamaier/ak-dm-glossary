@@ -55,4 +55,6 @@ a consistent file structure with use constraints and backup schedule that houses
 ### anno-page strip: {{- anno-page -}}
 ### anno2-page strip: {{ anno2-page }}
 
+{% include_relative {{ anno2-page }} %}
+
 {% endif %}
