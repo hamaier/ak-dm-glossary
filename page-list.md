@@ -1,9 +1,16 @@
 ---
 layout: draft
 ---
-# List all site pages:
+# List all site.pages:
 {% for page in site.pages %}
-**page.name**: {{page.name}}, *ID*: {{page.url}}, path: {{page.path}}
+**page.name**: {{page.name}}, **URL**: {{page.url}}, **Path**: {{page.path}}
 {% endfor %}
+
+
+# List all site.documents:
+{% for page in site.documents %}
+**page.name**: {{page.name}}, **URL**: {{page.url}}, **Path**: {{page.path}}
+{% endfor %}
+
 
 This page was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.
