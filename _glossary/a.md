@@ -22,7 +22,9 @@ Added this to check logical rendering.
 
 {% if page.asup %}
 
-  {% include_relative {{ page.asup }} %}
+Inside the loop
+
+{% include_relative {{ page.asup }} %}
 
 {% endif %}
 
@@ -50,11 +52,11 @@ a consistent file structure with use constraints and backup schedule that houses
 {% if page.bsup %}
 
 {% capture anno-page %}
-{{ page.id | split: "/" | last | strip }}-inc
+{{ page.id | split: "/" | last | strip }}-inc.md
 {% endcapture %}
 
 ### Page.id trim: {{page.id | split: "/" | last}}-inc.md
-### name-only: {{ anno-page }}
+### anno-page strip: {{ anno-page | strip}}
 
 
 {% endif %}
