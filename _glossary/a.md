@@ -16,7 +16,9 @@ Alaska Data Integration working group
 Added this to check logical rendering.
   - No blank lines w/in if clause doesn't render properly
   - Blank line after if opening clause. doesn't render
-  - Blank line before if closing clause
+  - Blank line before if closing clause. doesn't render
+  - Blank line before start of if
+
 {% if page.asup %}
 
   {% include_relative {{ page.asup }} %}
@@ -54,6 +56,6 @@ a consistent file structure with use constraints and backup schedule that houses
 {{page.name | remove: ".md"}}
 {% endcapture %}
 
-### Page.name trim: {{page.name | remove: ".md"}}
+### Page.name trim: {{page.id | split: "/" | last}}-inc.md
 ### name-only: {{name-only}}"-inc"
 {% endif %}
