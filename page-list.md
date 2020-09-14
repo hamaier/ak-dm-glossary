@@ -1,13 +1,13 @@
 ---
 layout: draft
 ---
-# List all site.pages:
+# List all pages (site.pages):
 {% for page in site.pages %}
 **page.name**: {{page.name}}, **URL**: {{page.url}}, **Path**: {{page.path}}
 {% endfor %}
 
 
-# List all site.documents:
+# List all documents in every collection (site.documents):
 {% for page in site.documents %}
 **page.name**: {{page.name}}, **URL**: {{page.url}}, **Path**: {{page.path}}
 {% endfor %}
