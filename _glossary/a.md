@@ -14,20 +14,13 @@ Alaska Data Integration working group
 
 # New Term - no spaces
 Added this to check logical rendering.
-  - No blank lines w/in if clause doesn't render properly
-  - Blank line after if opening clause. doesn't render
-  - Blank line before if closing clause. doesn't render
-  - Blank line before start of if. no change
-  - Blank line after end-if
+  - Blank line before if clause
+  - Blank line after if clause
 
 {% if page.asup %}
-
 Inside the loop
-
 {% include_relative {{ page.asup }} %}
-
 {% endif %}
-
 
 # Archive Folder
 a consistent file structure with use constraints and backup schedule that houses the definitive record of a project’s data resources. Products in the archive folder are the subject of metadata records and are the versions intended for use and dissemination. Contrast with working folder.
@@ -56,7 +49,7 @@ a consistent file structure with use constraints and backup schedule that houses
 {% endcapture %}
 
 ### Page.id trim: {{page.id | split: "/" | last}}-inc.md
-### anno-page strip: {{ anno-page | strip}}
-
+### anno-page strip: {{ anno-page | strip }}
+{% include_relative {{ anno-page | strip }} %}
 
 {% endif %}
