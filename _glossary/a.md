@@ -50,6 +50,5 @@ a consistent file structure with use constraints and backup schedule that houses
 
 ### Page.id trim: {{page.id | split: "/" | last}}-inc.md
 ### anno-page strip: {{ anno-page }}
-{% include_relative {{ anno-page | strip }} %}
 
 {% endif %}
