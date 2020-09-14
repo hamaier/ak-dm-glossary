@@ -56,7 +56,7 @@ a consistent file structure with use constraints and backup schedule that houses
 ### anno-pageb: {{ anno-pageb }}
 
 Inline:
-{% include_relative {{page.id | split: "/" | last}}-inc.md
+{% include_relative {{page.id | split: "/" | last}}-inc.md %}
 
 Via var:
 {% include_relative {{ anno-pageb }} %}
