@@ -59,6 +59,7 @@ Inline:
 {% include_relative {{page.id | split: "/" | last}}-inc.md %}
 
 {%comment%}
+Note: attempting to include a non-existant file throws an error.
 Include missing file (null-anno.md):
 {% include_relative {{ null-anno.md }} %}
 {%endcomment%}
