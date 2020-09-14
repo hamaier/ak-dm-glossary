@@ -47,7 +47,13 @@ a consistent file structure with use constraints and backup schedule that houses
 {{ page.id | split: "/" | last | strip }}-inc.md
 {% endcapture %}
 
+{%- capture anno2-page -%}
+{{ page.id | split: "/" | last | strip }}-inc.md
+{%- endcapture -%}
+
 ### Page.id trim: {{page.id | split: "/" | last}}-inc.md
 ### anno-page strip: {{- anno-page -}}
+### anno2-page strip: {{ anno2-page }}
 
+{% include_relative {{page.id | split: "/" | last}}-inc.md %}
 {% endif %}
