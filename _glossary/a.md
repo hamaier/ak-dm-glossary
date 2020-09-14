@@ -26,11 +26,6 @@ Added this to check logical rendering.
 
 {% endif %}
 
-(code used for above logical include)
-	{% if page.asup %}
-	  {% include_relative {{ page.asup }} %}
-	{% endif %}
-(end code)
 
 # Archive Folder
 a consistent file structure with use constraints and backup schedule that houses the definitive record of a project’s data resources. Products in the archive folder are the subject of metadata records and are the versions intended for use and dissemination. Contrast with working folder.
@@ -55,7 +50,7 @@ a consistent file structure with use constraints and backup schedule that houses
 {% if page.bsup %}
 
 {% capture anno-page %}
-{{ page.id | split: "/" | last }}
+{{ page.id | split: "/" | last | strip }}-inc
 {% endcapture %}
 
 ### Page.id trim: {{page.id | split: "/" | last}}-inc.md
