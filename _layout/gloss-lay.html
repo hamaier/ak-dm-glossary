@@ -5,16 +5,9 @@ edit: true
 ---
 ## based on https://github.com/okfn/opendatahandbook/blob/master/_layouts/glossary.html
 
-{%comment%}
 <dl>
   {% for term in site.glossary %}
   <dt>{{ term.name }} [<a href="{{ term.url }}">Permalink</a>]</dt>
   <dd>{{ term.content | markdownify | replace: 'href="../', 'href="terms/' }}</dd>
   {% endfor %}
 </dl>
-{%endcomment%}
-
-# Name: {{name}}
-
-## Content
-{{content}}
