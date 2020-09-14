@@ -59,7 +59,7 @@ a consistent file structure with use constraints and backup schedule that houses
 {% endcapture %}
 
 ### Page.id trim: {{page.id | split: "/" | last}}-inc.md
-### name-only: {{anno-page}}
+### name-only: {{ anno-page }}
 
 
 {% endif %}
