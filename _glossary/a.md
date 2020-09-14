@@ -22,5 +22,17 @@ Added this to check logical rendering.
 a consistent file structure with use constraints and backup schedule that houses the definitive record of a project’s data resources. Products in the archive folder are the subject of metadata records and are the versions intended for use and dissemination. Contrast with working folder.
 
 {% if page.bsup %}
-  {% include_relative {{ page.asup }} %}
+
+{% include_relative {{ page.asup }} %}
+
+{% endif %}
+
+{% if page.bsup %}
+	# Page {{page.name}} supplemental file found.
+	{% capture name-only %}
+	{{page.name | remove: ".md"}}
+	{% endcapture %}
+
+	## Page.name trim: {{page.name | remove: ".md"}}
+	### name-only: {{name-only}}"-inc"
 {% endif %}
