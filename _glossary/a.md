@@ -17,13 +17,15 @@ Added this to check logical rendering.
   - No blank lines w/in if clause doesn't render properly
   - Blank line after if opening clause. doesn't render
   - Blank line before if closing clause. doesn't render
-  - Blank line before start of if
+  - Blank line before start of if. no change
+  - Blank line after end-if
 
 {% if page.asup %}
 
   {% include_relative {{ page.asup }} %}
 
 {% endif %}
+
 (code used for above logical include)
 	{% if page.asup %}
 	  {% include_relative {{ page.asup }} %}
@@ -34,7 +36,6 @@ Added this to check logical rendering.
 a consistent file structure with use constraints and backup schedule that houses the definitive record of a project’s data resources. Products in the archive folder are the subject of metadata records and are the versions intended for use and dissemination. Contrast with working folder.
 
 {% if page.bsup %}
-
 {% include_relative {{ page.asup }} %}
 {% endif %}
 
@@ -52,10 +53,13 @@ a consistent file structure with use constraints and backup schedule that houses
 ## page.id: {{page.id}}
 
 {% if page.bsup %}
-{% capture name-only %}
-{{page.name | remove: ".md"}}
+{% capture anno-page %}
+{{page.id | split: "/" | last}}-inc.md
 {% endcapture %}
 
 ### Page.name trim: {{page.id | split: "/" | last}}-inc.md
-### name-only: {{name-only}}"-inc"
+### name-only: {{anno-page}}
+
+{% include_relative {{ anno-page }} %}
+
 {% endif %}
