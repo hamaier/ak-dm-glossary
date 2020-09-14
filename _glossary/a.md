@@ -14,9 +14,8 @@ Alaska Data Integration working group
 
 # New Term - no spaces
 Added this to check logical rendering.
-  - Blank line before if clause
+  - No blank line before if clause
   - Blank line after if clause
-
 {% if page.asup %}
 Inside the loop
 {% include_relative {{ page.asup }} %}
@@ -49,6 +48,6 @@ a consistent file structure with use constraints and backup schedule that houses
 {% endcapture %}
 
 ### Page.id trim: {{page.id | split: "/" | last}}-inc.md
-### anno-page strip: {{ anno-page }}
+### anno-page strip: {{- anno-page -}}
 
 {% endif %}
