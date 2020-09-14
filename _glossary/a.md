@@ -1,5 +1,5 @@
 ---
-name: A Terms
+title: A Terms
 layout: default
 asup: adi-inc.md
 bsup: true
@@ -12,11 +12,16 @@ the degree to which the resource is obtainable by an interested party. Direct ac
 Alaska Data Integration working group
 {% include_relative {{ page.asup }} %}
 
-# New Term
+# New Term - no spaces
 Added this to check logical rendering.
 {% if page.asup %}
   {% include_relative {{ page.asup }} %}
 {% endif %}
+(code used for above logical include)
+	{% if page.asup %}
+	  {% include_relative {{ page.asup }} %}
+	{% endif %}
+(end code)
 
 # Archive Folder
 a consistent file structure with use constraints and backup schedule that houses the definitive record of a project’s data resources. Products in the archive folder are the subject of metadata records and are the versions intended for use and dissemination. Contrast with working folder.
@@ -26,13 +31,22 @@ a consistent file structure with use constraints and backup schedule that houses
 {% include_relative {{ page.asup }} %}
 
 {% endif %}
+(code used for above logical include)
 
+	{% if page.bsup %}
+
+	{% include_relative {{ page.asup }} %}
+
+	{% endif %}
+(end code)
+
+# Page name logic
 {% if page.bsup %}
-	# Page {{page.name}} supplemental file found.
-	{% capture name-only %}
-	{{page.name | remove: ".md"}}
-	{% endcapture %}
+# Page {{page.name}} supplemental file found.
+{% capture name-only %}
+{{page.name | remove: ".md"}}
+{% endcapture %}
 
-	## Page.name trim: {{page.name | remove: ".md"}}
-	### name-only: {{name-only}}"-inc"
+## Page.name trim: {{page.name | remove: ".md"}}
+### name-only: {{name-only}}"-inc"
 {% endif %}
