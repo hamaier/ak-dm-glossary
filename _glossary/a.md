@@ -55,8 +55,7 @@ a consistent file structure with use constraints and backup schedule that houses
 ### anno-page: {{ anno-page }}
 ### anno-pageb: {{ anno-pageb }}
 
-{%comment%}
-{% include_relative {{ anno2-page }} %}
-{%endcomment%}
+
+{% include_relative {{ anno-pageb }} %}
 
 {% endif %}
