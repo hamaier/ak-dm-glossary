@@ -14,7 +14,10 @@ Alaska Data Integration working group
 
 # New Term - no spaces
 Added this to check logical rendering.
+  - No blank lines w/in if clause doesn't render properly
+  - Blank line after if opening clause
 {% if page.asup %}
+
   {% include_relative {{ page.asup }} %}
 {% endif %}
 (code used for above logical include)
@@ -29,24 +32,26 @@ a consistent file structure with use constraints and backup schedule that houses
 {% if page.bsup %}
 
 {% include_relative {{ page.asup }} %}
-
 {% endif %}
-(code used for above logical include)
 
+(code used for above logical include)
 	{% if page.bsup %}
 
 	{% include_relative {{ page.asup }} %}
-
 	{% endif %}
 (end code)
 
 # Page name logic
+## page.name: {page.name}
+## page.dir: {page.dir}
+## page.path: {page.path}
+## page.id: {page.id}
+
 {% if page.bsup %}
-# Page {{page.name}} supplemental file found.
 {% capture name-only %}
 {{page.name | remove: ".md"}}
 {% endcapture %}
 
-## Page.name trim: {{page.name | remove: ".md"}}
+### Page.name trim: {{page.name | remove: ".md"}}
 ### name-only: {{name-only}}"-inc"
 {% endif %}
