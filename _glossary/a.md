@@ -35,7 +35,7 @@ a consistent file structure with use constraints and backup schedule that houses
 	{% endif %}
 (end code)
 
-# Page name logic
+# Page name logic:
 ## page.name: {{page.name}}
 ## page.dir: {{page.dir}}
 ## page.path: {{page.path}}
@@ -58,7 +58,7 @@ a consistent file structure with use constraints and backup schedule that houses
 Inline:
 {% include_relative {{page.id | split: "/" | last}}-inc.md %}
 
-Via var:
-{% include_relative {{ anno-pageb }} %}
+Include missing file (null-anno.md):
+{% include_relative {{ null-anno.md }} %}
 
 {% endif %}

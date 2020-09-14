@@ -1,4 +1,4 @@
-## Page "A" annotation include
+## Page "A" annotation include (file a-inc.md)
 
 Code sample:
 
@@ -9,14 +9,13 @@ This works:
 {%- capture anno-pageb -%}
 {{ page.id | split: "/" | last | strip }}-inc.md
 {%- endcapture -%}
+
+
+{% include_relative {{ anno-pageb }} %}
 ```
 
-More:
+So does this:
 ```
-{% if page.bsup %}
-{% capture anno-page %}
-{{page.id | split: "/" | last}}-inc.md
-{% endcapture %}
+{% include_relative {{page.id | split: "/" | last}}-inc.md %}
 ```
 {%endraw%}
-End code
