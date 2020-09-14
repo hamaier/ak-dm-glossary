@@ -53,8 +53,9 @@ a consistent file structure with use constraints and backup schedule that houses
 ## page.id: {{page.id}}
 
 {% if page.bsup %}
+
 {% capture anno-page %}
-{{page.id | split: "/" | last}} -inc.md
+{{ page.id | split: "/" | last }}
 {% endcapture %}
 
 ### Page.id trim: {{page.id | split: "/" | last}}-inc.md
