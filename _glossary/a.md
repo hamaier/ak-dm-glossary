@@ -54,12 +54,11 @@ a consistent file structure with use constraints and backup schedule that houses
 
 {% if page.bsup %}
 {% capture anno-page %}
-{{page.id | split: "/" | last}}-inc.md
+{{page.id | split: "/" | last}} -inc.md
 {% endcapture %}
 
-### Page.name trim: {{page.id | split: "/" | last}}-inc.md
+### Page.id trim: {{page.id | split: "/" | last}}-inc.md
 ### name-only: {{anno-page}}
 
-{% include_relative {{ anno-page }} %}
 
 {% endif %}
