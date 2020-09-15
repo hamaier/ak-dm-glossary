@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: gloss-lay2
 ---
 (glos-layout3.md) This page was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.
 
