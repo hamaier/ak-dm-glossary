@@ -1,7 +1,7 @@
 ---
 layout: gloss-lay2
 ---
-(glos-layout3.md) This page was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.
+(glos-layout4.md) This page was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.
 
 # glos-layout3.md using glossary layout in front matter
 # Try rendering glossary collection
