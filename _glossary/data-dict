@@ -1,0 +1,6 @@
+---
+title: D terms
+---
+
+# Data Dictionary
+Provides information on the contents of a dataset to support data quality and use. Such information includes entity (i.e., variable) definitions and allowable values. In the case of databases, or a collection of datasets, relationships between tables are also defined in the data dictionary.
