@@ -16,6 +16,8 @@
   - site.github.baseurl: {{ site.github.baseurl }}
   - site.github.owner_name: {{ site.github.owner_name }}
   - site.github.owner_url: {{ site.github.owner_url }}
+  - layout.myvar: {{layout.myvar}}
+  - page.layout: {{page.layout}}
 
   Content:
   {{ term.content }}
