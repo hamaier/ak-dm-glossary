@@ -9,13 +9,16 @@ myvar: gloss2
 </head>
 
 <body>
-## based on https://github.com/okfn/opendatahandbook/blob/master/_layouts/glossary.html
+based on https://github.com/okfn/opendatahandbook/blob/master/_layouts/glossary.html
 
-# Name: {{page.name}}
+<h2>Name: {{page.name}}</h2>
 
-## Content
 {{content}}
 
+<h2>More Stuff:</h2>
+<h3>page.layout {{page.layout}}</br>
+layout.myvar: {{layout.myvar}}
+</h3>
 
 This page was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.
 </body>
