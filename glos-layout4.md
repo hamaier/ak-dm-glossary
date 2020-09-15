@@ -1,5 +1,6 @@
 ---
 layout: gloss-lay2
+var1: test-var
 ---
 (glos-layout4.md) This page was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.
 

@@ -8,3 +8,4 @@ An administrative process that includes acquiring, validating, storing,  and sec
 ## Variables:
   - page.layout: {{page.layout}}
   - layout.myvar: {{layout.myvar}}
+  - var1: {{var1}}

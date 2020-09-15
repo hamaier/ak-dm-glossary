@@ -8,3 +8,4 @@ Document that describes the data expected from the project, how such data will b
 ## Variables:
   - page.layout: {{page.layout}}
   - layout.myvar: {{layout.myvar}}
+  - var1: {{var1}}
