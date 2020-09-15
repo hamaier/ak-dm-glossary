@@ -1,12 +1,19 @@
+---
+layout: default
+---
+
 # glos-layout3.md using glossary layout in front matter
 # Try rendering glossary collection
 {% for term in site.glossary %}
-  # {{ term.name }}
-  --
-  Source path: {{ term.path }}
-  --
-  [Page link]({{ site.github.baseurl }}{{ term.url }})
-  ## variables:
+# {{ term.name }}
+
+--
+### Source path: {{ term.path }}
+--
+
+[Page link]({{ site.github.baseurl }}{{ term.url }})
+
+## variables:
   - term.path: {{ term.path }}
   - term.relative_path: {{ term.path }}
   - term.url: {{ term.url }}
@@ -21,9 +28,9 @@
   - layout.myvar: {{layout.myvar}}
   - page.layout: {{page.layout}}
 
-  Content:
-  {{ term.content }}
-  ---
+Content:
+{{ term.content }}
+---
 {% endfor %}
 
 ## end render
