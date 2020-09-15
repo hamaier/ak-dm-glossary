@@ -4,3 +4,7 @@ title: D terms
 
 # Data Management
 An administrative process that includes acquiring, validating, storing,  and securing data to ensure the accessibility, integrity, and timeliness of the data for its users.
+
+## Variables:
+  - page.layout: {{page.layout}}
+  - layout.myvar: {{layout.myvar}}
