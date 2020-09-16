@@ -5,7 +5,7 @@ theme: jekyll-theme-minimal
 
 collections:
   glossary:
-    #output: true
+    output: true
     permalink: "/:collection/:path/"
     #permalink: "/:collection/:name/"
     #permalink: "./glossary/"
