@@ -4,6 +4,7 @@
   - term.name: {{ term.name }}
   - page.id: {{page.id}}
   - page.tags: {{page.tags}}
+  - site.tags: {{site.tags}}
   - page.name: {{ page.name }}
   - page.path: {{ page.path }}
   - page.layout: {{ page.layout }}
