@@ -7,7 +7,7 @@ layout: glos-navl
 {%endcapture%}
 
 
-{%include glos-nav.md param=iname%}
+{%include glos-nav.md param=iname | strip_newlines%}
 
 
 {%comment%}
