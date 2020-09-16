@@ -12,3 +12,5 @@ page: {{page.url}}
 [B]({{site.github.baseurl}}{{page.url}})#b
 [M]({{site.github.baseurl}}{{page.url}})#m
 [Top]({{site.github.baseurl}}{{page.url}})
+
+{%include show-debug.md%}

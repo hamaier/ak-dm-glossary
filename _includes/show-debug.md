@@ -7,6 +7,7 @@
   - page.tags: {{page.tags}}
   - site.tags: {{site.tags}}
   - page.name: {{ page.name }}
+  - page.dir: {{page.dir}}
   - page.path: {{ page.path }}
   - page.layout: {{ page.layout }}
   - page.testvar: {{page.testvar }}
