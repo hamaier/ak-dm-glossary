@@ -1,8 +1,9 @@
 ---
-title: A Terms
+term: ADIwg
 layout: default
 ---
-# ADIwg
+# hardcode: ADIwg
+# term-var: {{page.term}}
 Alaska Data Integration working group
 
 ## More text after the excerpt

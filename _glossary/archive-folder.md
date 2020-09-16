@@ -1,5 +1,5 @@
 ---
-title: A Terms
+term: Archive Folder
 layout: default
 ---
 # Archive Folder

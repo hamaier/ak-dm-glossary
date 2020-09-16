@@ -25,9 +25,9 @@ Source path: {{ term.path }} [Page link]({{ site.github.baseurl }}{{ term.url }}
 {%endcomment%}
 
 {{ term.excerpt }}
-View [annotated definition]({{ site.github.baseurl }}{{ term.url }})
-{% if term.excerpt == term.content %}
-  no additional text
+{% if term.excerpt <> term.content %}
+  View [annotated definition]({{ site.github.baseurl }}{{ term.url }})
+
 {% endif %}
 
 {% endfor %}
