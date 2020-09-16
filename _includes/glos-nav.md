@@ -6,7 +6,7 @@ page: {{page.url}}
 layout.gh: {{ layout.glosshome }}
 site.ham-glosshome: {{ site.ham-glosshome }}
 
-## INCLUDE.PARAM = {{ include.param }}
+## INCLUDE.PARAM-ns = {{include.param}}
 
 [A]({{site.github.baseurl}}/{{layout.glosshome}}#a) -
 [B]({{site.github.baseurl}}/{{layout.glosshome}}#b) -
