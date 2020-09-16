@@ -2,13 +2,10 @@
 title: A Terms
 layout: default
 ---
-{% if page.layout == "anno" %}
-{% include_relative acc-inc.md %}
-{% endif %}
-
 # ADIwg
 Alaska Data Integration working group
 
+## More text after the excerpt
 {% include_relative a-inc.md %}
 
 ## New Term - no spaces

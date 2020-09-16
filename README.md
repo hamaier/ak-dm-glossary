@@ -6,6 +6,7 @@ Test of glossary layout using GitHub.
 
 ## [Render Glossary](glos-layout2.md) from collection
 ## [Render Glossary using layout](glos-layout3.md) from collection
+## [Render Glossary using "excerpts"](gloss-summary.md)
 
 ## GitBook test glossary
   * [edit view](https://app.gitbook.com/@hamaier/s/ham-testspace)
