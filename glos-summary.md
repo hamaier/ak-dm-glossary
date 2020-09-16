@@ -9,16 +9,15 @@ tags: l3 t1
 
 {% for term in site.glossary %}
 ---
-### Source path: {{ term.path }} [Page link]({{ site.github.baseurl }}{{ term.url }})
----
+Source path: {{ term.path }} [Page link]({{ site.github.baseurl }}{{ term.url }})
+
 {%comment%}
   Display variables for testing and debugging
   {%include show-debug.md%}
 {%endcomment%}
 
-## Excerpt
 {{ term.excerpt }}
-
+View [annotated definition]({{ site.github.baseurl }}{{ term.url }})
 {% endfor %}
 
 ## end render
