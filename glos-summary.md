@@ -11,9 +11,13 @@ Render "_glossary" collection using "default" layout and display only the "excer
 {% for term in site.glossary %}
 
 {% if term.glosindex %}
+
   # {{term.glosindex}}
+
   {{term.glosindex}} is a separator:
+
   ## {{term.content}}
+
   {%continue%}
 {%endif%}
 
