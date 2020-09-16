@@ -6,6 +6,8 @@ page: {{page.url}}
 layout.gh: {{ layout.glosshome }}
 site.ham-glosshome: {{ site.ham-glosshome }}
 
+## INCLUDE-INDEX = {{include.index}}
+
 [A]({{site.github.baseurl}}/{{layout.glosshome}}#a) -
 [B]({{site.github.baseurl}}/{{layout.glosshome}}#b) -
 [M]({{site.github.baseurl}}/{{layout.glosshome}}#m) -
