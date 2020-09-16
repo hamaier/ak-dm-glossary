@@ -19,8 +19,10 @@ tags: l3 t1
 
 {%include show-debug.md%}
 
+## Excerpt
+{{ term.excerpt }}
 
-Collection.Content:
+## Collection.Content:
 {{ term.content }}
 ---
 {% endfor %}
