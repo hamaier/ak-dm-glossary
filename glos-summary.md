@@ -11,15 +11,8 @@ Render "_glossary" collection using "default" layout and display only the "excer
 {% for term in site.glossary %}
 
 {% if term.glosindex %}
-
   {{term.glosindex | prepend: "# " | markdownify}}
-
-  {{term.glosindex | markdownify}}
-
-  {{term.glosindex}} is a separator:
-
-  ## {{term.content}}
-
+  {{term.content}| prepend: "## " | markdownify}}
   {%continue%}
 {%endif%}
 
