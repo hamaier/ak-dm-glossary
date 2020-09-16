@@ -4,8 +4,11 @@
   - term.name: {{ term.name }}
   - page.name: {{ page.name }}
   - page.path: {{ page.path }}
-  - page.layout: {{page.layout}}
-  - layout.myvar: {{layout.myvar}}
+  - page.layout: {{ page.layout }}
+  - page.testvar: {{page.testvar }}
+  - testvar: {{ testvar }}
+  - layout.myvar: {{ layout.myvar }}
+  - myvar: {{ myvar }}
   - site.url: {{ site.url }}
   - site.github.url: {{ site.github.url }}
   - site.github.baseurl: {{ site.github.baseurl }}
