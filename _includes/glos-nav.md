@@ -12,9 +12,7 @@
 {% endcapture %}
 
 {%- for item in varb -%}
-
 [[{{item}}]({{home}}#{{item | downcase}})] -
-
 {%- endfor -%}
 
 {% comment %}
