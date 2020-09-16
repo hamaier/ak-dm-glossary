@@ -1,6 +1,6 @@
 ---
 name: nav-bar
-layout:
+layout: anno
 nums: "A", "B", "C", "D", "E", "F"
 ---
 # A - B -
