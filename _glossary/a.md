@@ -17,13 +17,14 @@ layout.gh: {{layout.glosshome}}
 [Top]({{site.github.baseurl}}/{{layout.glosshome}})
 
 {% assign varb = "A,B,C,D,M,Top" | split: "," %}
+
 {% capture home %}
 ({{site.github.baseurl}}'/'{{layout.glosshome}}#
 {% endcapture %}
 
 {%- for item in varb -%}
 
-'[' {{item}} "]" {{home}}"#"{{item}}" -"
+[{{item}}]({{home}}#{{item}}) -
 
 {%- endfor -%}
 
