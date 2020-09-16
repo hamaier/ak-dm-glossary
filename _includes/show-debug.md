@@ -1,0 +1,13 @@
+## show-debug variables:
+  - term.path: {{ term.path }}
+  - term.url: {{ term.url }}
+  - term.name: {{ term.name }}
+  - page.name: {{ page.name }}
+  - page.path: {{ page.path }}
+  - page.layout: {{page.layout}}
+  - layout.myvar: {{layout.myvar}}
+  - site.url: {{ site.url }}
+  - site.github.url: {{ site.github.url }}
+  - site.github.baseurl: {{ site.github.baseurl }}
+  - site.github.owner_name: {{ site.github.owner_name }}
+  - site.github.owner_url: {{ site.github.owner_url }}

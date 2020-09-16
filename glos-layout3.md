@@ -4,31 +4,22 @@ testvar: lo3md
 ---
 (glos-layout3.md) This page was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.
 
-# glos-layout3.md using glossary layout in front matter
-# Try rendering glossary collection
-{% for term in site.glossary %}
-# {{ term.name }}
+# glos-layout3.md - render "_glossary" collection using "default" layout
 
+{% for term in site.glossary %}
 ---
 ### Source path: {{ term.path }} [Page link]({{ site.github.baseurl }}{{ term.url }})
 ---
+# {{ term.name }}
 
-## variables:
-  - term.path: {{ term.path }}
-  - term.relative_path: {{ term.path }}
-  - term.url: {{ term.url }}
-  - term.name: {{ term.name }}
-  - site.url: {{ site.url }}
-  - page.name: {{ page.name }}
-  - page.path: {{ page.path }}
-  - site.github.url: {{ site.github.url }}
-  - site.github.baseurl: {{ site.github.baseurl }}
-  - site.github.owner_name: {{ site.github.owner_name }}
-  - site.github.owner_url: {{ site.github.owner_url }}
-  - page.layout: {{page.layout}}
-  - layout.myvar: {{layout.myvar}}
+{%comment%}
+  Display variables for testing and debugging
+{%endcomment%}
 
-Content:
+{%include show-debug%}
+
+
+Collection.Content:
 {{ term.content }}
 ---
 {% endfor %}
