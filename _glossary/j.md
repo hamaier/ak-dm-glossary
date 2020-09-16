@@ -9,5 +9,11 @@ nums: "A,B,C,D,E,F"
 {{glosindex}}
 {% endcapture %}
 
-{% include glos-nav.md index=iname %}
+### j.md vars:
+  - iname: {{iname}}
+  - glosindex: {{glosindex}}
+
+
+
+{% include glos-nav.md param=iname %}
 {%include show-debug.md%}
