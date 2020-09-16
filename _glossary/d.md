@@ -1,6 +1,5 @@
 ---
 name: D terms
-layout: gloss-lay2
 ---
 # Data Catalog
 database comprised of metadata allowing for the discovery of data resources.
