@@ -12,7 +12,7 @@ Render "_glossary" collection using "default" layout and display only the "excer
 
 {% if term.glosindex %}
   {{term.glosindex | prepend: "# " | markdownify}}
-  {{term.content} | prepend: "## " | markdownify}}
+  {{term.content | prepend: "## " | markdownify}}
   {%continue%}
 {%endif%}
 
