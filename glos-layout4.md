@@ -5,6 +5,8 @@ tags: l4 t1
 ---
 (glos-layout4.md) This page was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.
 
+{%include show-debug.md%}
+
 # glos-layout4.md - render "_glossary" collection using "anno" layout
 
 {% for term in site.glossary %}
