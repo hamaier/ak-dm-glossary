@@ -38,3 +38,12 @@ a discrete effort on a particular topic with defined objectives or goals.
 
 # Project Management
 the practice of initiating, planning, executing, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time.
+
+---
+testvar: {{testvar}}
+page.testvar: {{page.testvar}}
+layout.myvar: {{layout.myvar}}
+page.name: {{page.name}}
+page.id: {{page.id}}
+page.date: {{page.date}}
+page.path: {{page.path}}

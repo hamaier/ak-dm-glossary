@@ -1,6 +1,6 @@
 ---
 layout: gloss-lay3
-var1: test-var
+testvar: lo4md
 ---
 (glos-layout4.md) This page was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.
 
