@@ -1,6 +1,6 @@
 ---
 glosindex: J-P
-layout: glos-nav
+layout: glos-navl
 ---
 {%capture iname%}
 {{page.glosindex}}

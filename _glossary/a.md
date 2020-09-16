@@ -1,6 +1,6 @@
 ---
 glosindex: A
-layout: glos-nav
+layout: glos-navl
 ---
 
 {%capture iname%}
