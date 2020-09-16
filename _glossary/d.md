@@ -1,5 +1,6 @@
 ---
 name: D terms
+layout: default
 ---
 # Data Catalog
 database comprised of metadata allowing for the discovery of data resources.
