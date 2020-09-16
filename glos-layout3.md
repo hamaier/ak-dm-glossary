@@ -16,7 +16,7 @@ testvar: lo3md
   Display variables for testing and debugging
 {%endcomment%}
 
-{%include show-debug%}
+{%include show-debug.md%}
 
 
 Collection.Content:
