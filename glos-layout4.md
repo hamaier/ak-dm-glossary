@@ -1,6 +1,7 @@
 ---
 layout: default
 testvar: lo4md
+tag: l4 t1
 ---
 (glos-layout4.md) This page was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.
 

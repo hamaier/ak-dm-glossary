@@ -1,6 +1,7 @@
 ---
 layout: default
 testvar: lo3md
+tag: l3 t1
 ---
 (glos-layout3.md) This page was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.
 
