@@ -15,7 +15,9 @@ individual having the authority to: 1) ensure resources are available to impleme
   - testvar: {{testvar}}
   - page.testvar: {{page.testvar}}
   - layout.myvar: {{layout.myvar}}
+  - layout.name: {{layout.name}}
   - page.name: {{page.name}}
   - page.id: {{page.id}}
   - page.date: {{page.date}}
   - page.path: {{page.path}}
+  - page.layout: {{page.layout}}
