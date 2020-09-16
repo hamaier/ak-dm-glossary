@@ -1,6 +1,6 @@
 ---
 glosindex: J-P
-layout: anno
+layout: glos-nav
 ---
 
 # {{page.glosindex}}
