@@ -19,12 +19,12 @@ layout.gh: {{layout.glosshome}}
 {% assign varb = "A,B,C,D,M,Top" | split: "," %}
 
 {% capture home %}
-{{site.github.baseurl}}/{{layout.glosshome}}
+{{site.github.baseurl} | append: '/'}{{layout.glosshome}}
 {% endcapture %}
 
 {%- for item in varb -%}
 
-[{{item}}]({{home}}#{{item}}) -
+[{{item}}]({{home}}#{{item | downcase}}) -
 
 {%- endfor -%}
 
