@@ -3,6 +3,7 @@
   - term.url: {{ term.url }}
   - term.name: {{ term.name }}
   - page.id: {{page.id}}
+  - page.url: {{page.url}}
   - page.tags: {{page.tags}}
   - site.tags: {{site.tags}}
   - page.name: {{ page.name }}
