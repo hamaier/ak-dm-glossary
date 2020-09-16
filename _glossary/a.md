@@ -16,7 +16,7 @@ layout.gh: {{layout.glosshome}}
 [M]({{site.github.baseurl}}/{{layout.glosshome}}#m) -
 [Top]({{site.github.baseurl}}/{{layout.glosshome}})
 
-{% assign varb = [1,2,"A",4,5] %}
+{% assign varb = "A", "B", "C" %}
 
 varb: {{varb}}
 
