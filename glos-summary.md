@@ -15,10 +15,9 @@ Render "_glossary" collection using "default" layout and display only the "excer
 
 {% capture var1 %}
 {{term.content | prepend: "## " | strip_newlines | markdownify}}
-
 {%endcapture%}
 
-{{var1 | append: " more text"}}
+{{var1 | remove: "<p>" | remove: "-</p>"}}
 
 {%continue%}
 {%endif%}
