@@ -9,12 +9,17 @@ Render "_glossary" collection using "default" layout and display only the "excer
 
 
 {% for term in site.glossary %}
+
+{% if term.glosindex %}
+
+{{term.glosindex}} is a separator
+{{term.contents}}
+{%continue%}
+
+{%endif%}
+
 ---
 Source path: {{ term.path }} [Page link]({{ site.github.baseurl }}{{ term.url }})
-Var- glosindex: {{term.glosindex}}
-{% if term.glosindex %}
-{{term.glosindex}} is a separator
-{%endif%}
 
 {%comment%}
   Display variables for testing and debugging
