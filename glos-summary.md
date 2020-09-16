@@ -11,11 +11,9 @@ Render "_glossary" collection using "default" layout and display only the "excer
 {% for term in site.glossary %}
 
 {% if term.glosindex %}
-
-{{term.glosindex}} is a separator
-{{term.contents}}
-{%continue%}
-
+  {{term.glosindex}} is a separator
+  {{term.content}}
+  {%continue%}
 {%endif%}
 
 ---
@@ -28,6 +26,10 @@ Source path: {{ term.path }} [Page link]({{ site.github.baseurl }}{{ term.url }}
 
 {{ term.excerpt }}
 View [annotated definition]({{ site.github.baseurl }}{{ term.url }})
+{% if term.excerpt == term.content %}
+  no additional text
+{% endif %}
+
 {% endfor %}
 
 ## end render
