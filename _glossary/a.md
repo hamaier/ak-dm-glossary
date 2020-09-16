@@ -18,13 +18,10 @@ layout.gh: {{layout.glosshome}}
 
 {% assign varb = "A,B,C,D,M,Top" | split: "," %}
 
-varb: {{varb}}
-
-{%- for item in varb -%}
-{{-item-}}
+#{%- for item in varb -%}
+[{{-item-}}]({{site.github.baseurl}}/{{layout.glosshome}}#{{-item-}} -
 {%- endfor -%}
 
-Top
 
 
 {%include show-debug.md%}
