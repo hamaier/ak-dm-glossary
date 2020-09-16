@@ -24,6 +24,7 @@ Source path: {{ term.path }} [Page link]({{ site.github.baseurl }}{{ term.url }}
   {%include show-debug.md%}
 {%endcomment%}
 
+{{term.term}} (embedded in main page)
 {{ term.excerpt }}
 {% if term.excerpt <> term.content %}
   View [annotated definition]({{ site.github.baseurl }}{{ term.url }})
