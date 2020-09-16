@@ -7,11 +7,9 @@ layout: glos-nav
 {{page.glosindex}}
 {%endcapture%}
 
----
 
-# {%- include glos-nav.md param=iname -%}
+{%- include glos-nav.md param=iname -%}
 
----
 
 {%comment%}
 {%include show-debug.md%}

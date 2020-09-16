@@ -2,6 +2,10 @@
 glosindex: J-P
 layout: glos-nav
 ---
-# {% include glos-nav.md param=iname %}
+{%capture iname%}
+{{page.glosindex}}
+{%endcapture%}
+
+{% include glos-nav.md param=iname %}
 
 {%include show-debug.md%}
