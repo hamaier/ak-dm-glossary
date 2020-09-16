@@ -12,11 +12,13 @@ Render "_glossary" collection using "default" layout and display only the "excer
 
 {% if term.glosindex %}
 {{term.glosindex | prepend: "# " | markdownify}}
-{%capture var1 %}
+
+{% capture var1 %}
 {{term.content | prepend: "## " | strip_newlines | markdownify}}
+
 {%endcapture%}
 
-{{var1} | append: " more text"}
+{{var1 | append: " more text"}}
 
 {%continue%}
 {%endif%}
