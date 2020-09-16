@@ -14,10 +14,10 @@ Render "_glossary" collection using "default" layout and display only the "excer
 {{term.glosindex | prepend: "# " | markdownify}}
 
 {% capture var1 %}
-{{term.content | prepend: "## " | strip_newlines | markdownify}}
+{{term.content | strip_newlines }}
 {%endcapture%}
 
-{{var1 | remove: "<p>" | remove: "-</p>"}}
+{{var1 | markdownify}}
 
 {%continue%}
 {%endif%}
