@@ -3,15 +3,15 @@ glosindex: J-P
 layout: anno
 nums: "A,B,C,D,E,F"
 ---
-# {{ glosindex }} use index
+# {{ page.glosindex }} use index
 
 {% capture iname %}
-{{ glosindex }}
+{{ page.glosindex }}
 {% endcapture %}
 
 ### j.md vars:
   - iname: {{ iname }}
-  - glosindex: {{ glosindex }}
+  - glosindex: {{ page.glosindex }}
 
 
 
