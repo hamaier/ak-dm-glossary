@@ -12,7 +12,9 @@ Render "_glossary" collection using "default" layout and display only the "excer
 
 {% if term.glosindex %}
 
-  # {{term.glosindex}}
+  {{term.glosindex | prepend: "# "}}
+
+  {{term.glosindex | markdownify}}
 
   {{term.glosindex}} is a separator:
 
