@@ -5,7 +5,7 @@ tags: l3 t1
 ---
 (glos-summary.md) This page was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.
 
-Render "_glossary" collection using "default" layout and display only the "excerpt" of each file (current default is first paragraph)
+Render "_glossary" collection using "default" layout and display only the "excerpt" of each file (current default is first paragraph). If additional content is available, a "View annotated definition" link is displayed.
 
 
 {% for term in site.glossary %}
