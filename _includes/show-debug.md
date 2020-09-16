@@ -2,12 +2,14 @@
   - term.path: {{ term.path }}
   - term.url: {{ term.url }}
   - term.name: {{ term.name }}
+  - page.id: {{page.id}}
   - page.name: {{ page.name }}
   - page.path: {{ page.path }}
   - page.layout: {{ page.layout }}
   - page.testvar: {{page.testvar }}
   - testvar: {{ testvar }}
   - layout.myvar: {{ layout.myvar }}
+  - layout.name: {{layout.name}}
   - myvar: {{ myvar }}
   - site.url: {{ site.url }}
   - site.github.url: {{ site.github.url }}

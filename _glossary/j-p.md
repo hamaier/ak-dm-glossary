@@ -39,12 +39,8 @@ a discrete effort on a particular topic with defined objectives or goals.
 the practice of initiating, planning, executing, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time.
 
 ---
-- testvar: {{testvar}}
-- page.testvar: {{page.testvar}}
-- layout.myvar: {{layout.myvar}}
-- layout.name: {{layout.name}}
-- page.name: {{page.name}}
-- page.id: {{page.id}}
-- page.date: {{page.date}}
-- page.path: {{page.path}}
-- page.layout: {{page.layout}}
+{%comment%}
+  Display variables for testing and debugging
+{%endcomment%}
+
+{%include show-debug.md%}

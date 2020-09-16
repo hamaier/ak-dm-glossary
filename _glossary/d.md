@@ -11,12 +11,8 @@ individual responsible for the storage and security of a data resource.
 individual having the authority to: 1) ensure resources are available to implement the complete project and data lifecycle and 2) ensure compliance with all data governance policies.
 
 ---
-  - testvar: {{testvar}}
-  - page.testvar: {{page.testvar}}
-  - layout.myvar: {{layout.myvar}}
-  - layout.name: {{layout.name}}
-  - page.name: {{page.name}}
-  - page.id: {{page.id}}
-  - page.date: {{page.date}}
-  - page.path: {{page.path}}
-  - page.layout: {{page.layout}}
+{%comment%}
+  Display variables for testing and debugging
+{%endcomment%}
+
+{%include show-debug.md%}
