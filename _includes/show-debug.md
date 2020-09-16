@@ -14,6 +14,7 @@
   - testvar: {{ testvar }}
   - layout.myvar: {{ layout.myvar }}
   - layout.name: {{layout.name}}
+  - layout.glosshome: {{layout.glosshome}}
   - myvar: {{ myvar }}
   - site.url: {{ site.url }}
   - site.github.url: {{ site.github.url }}
