@@ -1,7 +1,5 @@
 ---
-title: D terms
+term: Data Integrity
 layout: default
 ---
-
-# Data Integrity
 Property describing foundational soundness of a data resource. Data with strong integrity have undergone quality control and assurance procedures throughout their lifespan, have permanence over a reasonable timeframe and changes to the data are appropriately documented.

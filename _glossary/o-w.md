@@ -1,5 +1,5 @@
 ---
-name: O-W Terms
+term: O-W Terms
 layout: default
 ---
 # Open Format

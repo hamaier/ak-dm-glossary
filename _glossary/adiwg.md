@@ -2,8 +2,6 @@
 term: ADIwg
 layout: default
 ---
-# hardcode: ADIwg
-# term-var: {{page.term}}
 Alaska Data Integration working group
 
 ## More text after the excerpt

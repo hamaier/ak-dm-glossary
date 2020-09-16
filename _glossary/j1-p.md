@@ -1,5 +1,5 @@
 ---
-title: J-O Terms
+term: J-O Terms
 layout: default
 asup: adi-inc.md
 bsup: true

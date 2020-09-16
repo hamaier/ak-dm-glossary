@@ -13,9 +13,10 @@
 
 {%- for item in varb -%}
 
-[{{item}}]({{home}}#{{item | downcase}}) -
+[[{{item}}]({{home}}#{{item | downcase}})] -
 
 {%- endfor -%}
 
-
+{% comment %}
 {%include show-debug.md%}
+{% endcomment %}

@@ -1,2 +1,16 @@
-Metadata
-Data that describes and provides additional information about other data to promote discoverability and proper use.
+---
+glosindex: M
+layout: glos-navl
+---
+
+{%capture iname%}
+{{page.glosindex}}
+{%endcapture%}
+
+
+{%- include glos-nav.md param=iname -%}
+
+
+{%comment%}
+{%include show-debug.md%}
+{%endcomment%}
