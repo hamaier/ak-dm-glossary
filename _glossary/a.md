@@ -15,11 +15,10 @@ layout.gh: {{layout.glosshome}}
 [M]({{site.github.baseurl}}/{{layout.glosshome}}#m) -
 [Top]({{site.github.baseurl}}/{{layout.glosshome}})
 
-#
 
 {% for i in [A, B, C, D, E, F] %}
-{{i}} -
-{%endfor%}
+  {{ i }} hello
+{% endfor %}
 
 Top
 
