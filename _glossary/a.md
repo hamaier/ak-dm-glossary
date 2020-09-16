@@ -17,7 +17,7 @@ layout.gh: {{layout.glosshome}}
 
 #
 
-{% for i in [A..F] %}
+{% for i in [A, B, C, D, E, F] %}
 {{i}} -
 {%endfor%}
 
