@@ -17,7 +17,7 @@ layout.gh: {{layout.glosshome}}
 [Top]({{site.github.baseurl}}/{{layout.glosshome}})
 
 
-{% for i in nums %}
+{% for i in page.nums %}
   {{ i | append: " -"}}
 {% endfor %}
 
