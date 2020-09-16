@@ -22,7 +22,7 @@ layout.gh: {{layout.glosshome}}
 {% endcapture %}
 
 {%- for item in varb -%}
-[ {{item}} ] {{home}}#{{item}} -
+"["{{item}}"]"{{home}}"#"{{item}}" -"
 {%- endfor -%}
 
 
