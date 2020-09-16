@@ -1,17 +1,9 @@
-# Nav var list
-
-base: {{site.github.baseurl}}
-base-p: {{site.github.pageurl}}
-page: {{page.url}}
-layout.gh: {{ layout.glosshome }}
-site.ham-glosshome: {{ site.ham-glosshome }}
-
-## INCLUDE.PARAM-ns = {{include.param}}
-
-[A]({{site.github.baseurl}}/{{layout.glosshome}}#a) -
-[B]({{site.github.baseurl}}/{{layout.glosshome}}#b) -
-[M]({{site.github.baseurl}}/{{layout.glosshome}}#m) -
-[Top]({{site.github.baseurl}}/{{layout.glosshome}})
+{%comment%}
+  Generate index navigation bar entries.
+  This include file should be called from a file in the
+  collection, named such that it is rendered in the proper
+  sorted location.
+{%endcomment%}
 
 {% assign varb = "A,B,C,D,J-P,M,N,O,P,Top" | split: "," %}
 

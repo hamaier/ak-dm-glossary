@@ -1,9 +1,9 @@
 ---
 glosindex: J-P
 layout: anno
-nums: "A,B,C,D,E,F"
 ---
-# {{page.glosindex}} use index
+
+# {{page.glosindex}}
 
 {%capture iname%}
 {{page.glosindex}}
@@ -13,7 +13,7 @@ nums: "A,B,C,D,E,F"
   - iname: {{iname}}
   - glosindex: {{page.glosindex}}
 
-
-
-{%include glos-nav.md param=iname%}
+---
+# {% include glos-nav.md param=iname %}
+---
 {%include show-debug.md%}
