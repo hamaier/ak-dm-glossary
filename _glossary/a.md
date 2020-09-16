@@ -10,9 +10,16 @@ base-p: {{site.github.pageurl}}
 page: {{page.url}}
 layout.gh: {{layout.glosshome}}
 
-<h1>[A]({{site.github.baseurl}}/{{layout.glosshome}}#a) -
+[A]({{site.github.baseurl}}/{{layout.glosshome}}#a) -
 [B]({{site.github.baseurl}}/{{layout.glosshome}}#b) -
 [M]({{site.github.baseurl}}/{{layout.glosshome}}#m) -
 [Top]({{site.github.baseurl}}/{{layout.glosshome}})
-</h1>
+
+#
+{% for i in [A..F] %}
+{{i}} -
+{%endfor%}
+Top
+
+
 {%include show-debug.md%}
