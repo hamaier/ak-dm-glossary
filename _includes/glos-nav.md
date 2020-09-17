@@ -11,8 +11,9 @@
 {{site.github.baseurl | append: '/'}}{{site.ham-glosshome}}
 {% endcapture %}
 
+{% assign delim = " - " %}
 {%for item in varb%}
-[[{{item}}]({{home}}#{{item | downcase}})] -
+[[{{item}}]({{home}}#{{item | downcase}})] {{delim}}
 {%endfor%}
 
 {% comment %}
