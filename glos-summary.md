@@ -21,9 +21,11 @@ Render "_glossary" collection using "default" layout and display only the "excer
 {{term.content | strip_newlines }}
 {%endcapture%}
 
-{{var1 | markdownify}}
+{{var1 | remove: "<p>" | markdownify}}
 
-{{var2 | markdownify | prepend: "##"}}
+{{var2 | prepend: "##" | markdownify}}
+
+{{var1 | remove: "<p>" | remove: "</p>" |markdownify}}
 
 
 {%continue%}
