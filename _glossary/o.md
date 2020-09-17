@@ -1,5 +1,5 @@
 ---
-glosindex: M
+glosindex: O
 layout: glos-navl
 ---
 {%capture iname%}

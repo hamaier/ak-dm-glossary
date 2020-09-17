@@ -2,14 +2,12 @@
 glosindex: D
 layout: anno
 ---
-<hr>
-<h1>{{page.glosindex}}</h1>
-
 {%capture iname%}
 {{page.glosindex}}
 {%endcapture%}
 
+{%include glos-nav.md param=iname%}
 
-<h2>
-{% include glos-nav.md param=iname %}
-</h2>
+{%comment%}
+{%include show-debug.md%}
+{%endcomment%}
