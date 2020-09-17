@@ -6,9 +6,7 @@ layout: glos-navl
 {{page.glosindex}}
 {%endcapture%}
 
-
 {%include glos-nav.md param=iname%}
-
 
 {%comment%}
 {%include show-debug.md%}
