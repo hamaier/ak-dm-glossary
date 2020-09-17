@@ -25,7 +25,7 @@ Render "_glossary" collection using "default" layout and display only the "excer
 
 {{var2 | prepend: "##" | markdownify}}
 
-{{var1 | remove: "<p>" | remove: "</p>" |markdownify}}
+{{var1 | remove: "<p>" | remove: "</p>" | markdownify}}
 
 
 {%continue%}
