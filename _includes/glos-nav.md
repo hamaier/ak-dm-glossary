@@ -11,9 +11,9 @@
 {{site.github.baseurl | append: '/'}}{{site.ham-glosshome}}
 {% endcapture %}
 
-{%- for item in varb -%}
-[[{{item}}]({{home}}#{{item | downcase}})] -
-{%- endfor -%}
+{%for item in varb%}
+[[{{item}}]({{home}}#{{item | downcase}})] - 
+{%endfor%}
 
 {% comment %}
 {%include show-debug.md%}
